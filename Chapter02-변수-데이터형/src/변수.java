@@ -6,8 +6,6 @@
  * 기본형
  * 	정수-byte(1byte), short(2byte), int(4byte)-프로그램에서 숫자는 기본적으로 int로 인식, long(8byte)
  * 	실수-float(4byte, 소수점 6자리까지), double(8byte, 소수점 15자리까지)-프로그램에서 실수는 기본적으로 double로 인식
- * 
- * 
  * 	논리-boolean(1byte) - true, false
  * 	문자-char(2byte - UTF-8) - 문자 1개 '', String - 여러 개 ""
  * 
@@ -40,10 +38,14 @@
  * (헝가리안 표기법) : 첫 단어 소문자 다음 단어 첫글자 대문자 
  * ex)firstName
  * 
+ * 
+ * 0b10 2진법
+ * 07-8진법
+ * 0xFF-16진법
 */
 public class 변수 {
 	
 	public static void main(String[] args) {
-		
+		System.out.println(010);
 	}
 }

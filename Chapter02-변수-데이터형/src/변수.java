@@ -52,9 +52,6 @@
 */
 public class 변수 {
 	public static void main(String[] args) {
-//		int apple=10;
-//		int ate_apple=5;
-//		System.out.println("남은 사과:"+(apple-ate_apple));
 		
 		byte byteValue=127;
 		int intValue=10;

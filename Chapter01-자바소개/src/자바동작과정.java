@@ -49,6 +49,5 @@ public class 자바동작과정 {
 
 	public static void main(String[] args) {
 		System.err.println("Hello Java");
-		
 	}
 }

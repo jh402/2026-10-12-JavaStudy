@@ -52,7 +52,7 @@
 */
 public class 변수 {
 	public static void main(String[] args) {
-		byte byteValue=127;
+		byte byteValue=127;//초기화
 		int intValue=10;
 		long longValue=10L;
 		float floatValue=10.5f;

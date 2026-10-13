@@ -52,7 +52,6 @@
 */
 public class 변수 {
 	public static void main(String[] args) {
-		
 		byte byteValue=127;
 		int intValue=10;
 		long longValue=10L;

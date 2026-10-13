@@ -2,6 +2,7 @@
  * 변수-한 개의 데이터를 저장하는 메모리 공간
  * RAM에 저장
  * 
+ * 
  * 데이터형
  * 기본형
  * 	정수-byte(1byte), short(2byte), int(4byte)-프로그램에서 숫자는 기본적으로 int로 인식, long(8byte)
@@ -42,10 +43,38 @@
  * 0b10 2진법
  * 07-8진법
  * 0xFF-16진법
+ * 
+ * 데이터형의 크기
+ * byte < short, char < int < long < float < double
+ * 업캐스팅 : 데이터 형을 크게
+ * 다운캐스팅 : 데이터 형을 작게
+ * 
 */
 public class 변수 {
-	
 	public static void main(String[] args) {
-		System.out.println(010);
+//		int apple=10;
+//		int ate_apple=5;
+//		System.out.println("남은 사과:"+(apple-ate_apple));
+		
+		byte byteValue=127;
+		int intValue=10;
+		long longValue=10L;
+		float floatValue=10.5f;
+		double doubleValue=10.5;
+		boolean booleanValue=true;
+		char charValue='A';
+		
+		System.out.println("byteValue="+byteValue);
+		System.out.println("intValue="+intValue);
+		System.out.println("longValue="+longValue);
+		System.out.println("floatValue="+floatValue);
+		System.out.println("doubleValue="+doubleValue);
+		System.out.println("booleanValue="+booleanValue);
+		System.out.println("charValue="+charValue);
+		
+		double d=100;//자동형변환
+		System.out.println("\nd="+d);
+		int a=97;//강제형변환
+		System.out.println((char)a);
 	}
 }

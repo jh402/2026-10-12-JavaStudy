@@ -75,6 +75,6 @@ public class 변수 {
 		double d=100;//자동형변환
 		System.out.println("\nd="+d);
 		int a=97;//강제형변환
-		System.out.println((char)a);
+		System.out.println("a="+(char)a);
 	}
 }

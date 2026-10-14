@@ -34,7 +34,7 @@ JavaStudy
 자동(묵시적) 타입 변환
 작은 크기의 타입이 큰 크기의 타입에 자장될 때 발생
 크기 순서
-<p></p>byte<short<int<long<float<double</p>
+<p>byte<short<int<long<float<double</p>
 
 강제(명시적) 타입 변환
 

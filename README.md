@@ -14,10 +14,12 @@ JavaStudy
 |long|8 byte|
 
 |실수 타입|메모리 크기|
+|---------|-----------|
 |float|4 byte|
 |double|8 byte|
 
 |논리 타입|메모리 크기|
+|---------|-----------|
 |boolean|1 byte|
 
 

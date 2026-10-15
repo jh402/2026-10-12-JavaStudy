@@ -4,7 +4,7 @@ JavaStudy
 
 <details>
   <summary>
-    <h2>변수</h2>
+    #변수
     <p>하나의 값을 저장할 수 있는 메모리 공간</p>
   </summary>
   <details>

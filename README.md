@@ -9,7 +9,8 @@ JavaStudy
   </summary>
   <details>
     <summary>
-      <h3>데이터 타입</h3>
+      
+## 데이터 타입   
       <p>모든 변수에는 타입이 있으며 타입에 따라 저장할 수 있는 값의 종류와 범위가 달라짐</p>
     </summary>
 

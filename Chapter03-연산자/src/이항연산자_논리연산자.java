@@ -11,7 +11,7 @@
  * 
  * || - 병렬연산자
  * ex) (조건) || (조건)
- * 	true || true -> true 
+ * 	true || true -> true
  * 	true || false -> true
  * 	false || true -> true
  * 	false || false -> false

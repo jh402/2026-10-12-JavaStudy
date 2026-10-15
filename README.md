@@ -1,10 +1,10 @@
 JavaStudy
 ==========
-# 변수
 
 <details>
   <summary>
-    #변수
+    
+# 변수
     <p>하나의 값을 저장할 수 있는 메모리 공간</p>
   </summary>
   <details>

@@ -5,12 +5,14 @@ JavaStudy
   <summary>
     
 # 변수
+
     <p>하나의 값을 저장할 수 있는 메모리 공간</p>
   </summary>
   <details>
     <summary>
       
 ## 데이터 타입   
+
       <p>모든 변수에는 타입이 있으며 타입에 따라 저장할 수 있는 값의 종류와 범위가 달라짐</p>
     </summary>
 

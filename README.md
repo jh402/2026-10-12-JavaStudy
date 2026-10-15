@@ -1,6 +1,6 @@
 JavaStudy
 ==========
-#변수
+# 변수
 
 <details>
   <summary>

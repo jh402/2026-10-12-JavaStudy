@@ -33,8 +33,10 @@
 <h4>타입 변환</h4>
 자동(묵시적) 타입 변환
 작은 크기의 타입이 큰 크기의 타입에 자장될 때 발생
+
 크기 순서
-<p>byte<short<int<long<float<double</p>
+
+byte &#60; short &#60; int &#60; long &#60; float &#60; double
 
 강제(명시적) 타입 변환
 

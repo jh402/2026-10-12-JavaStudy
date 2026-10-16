@@ -2,10 +2,11 @@ JavaStudy
 ==========
 
 <details>
-<summary>변수 하나의 값을 저장할 수 있는 메모리 공간</summary>
-
+<summary><h2>변수</h2><br>하나의 값을 저장할 수 있는 메모리 공간</summary>
+<br>
 <details>
-<summary>데이터 타입 모든 변수에는 타입이 있으며 타입에 따라 저장할 수 있는 값의 종류와 범위가 달라짐</summary>
+<summary><strong>데이터 타입</strong>
+    <br>모든 변수에는 타입이 있으며 타입에 따라 저장할 수 있는 값의 종류와 범위가 달라짐</summary>
 
 |정수 타입|메모리 크기|
 |---|---|
@@ -36,14 +37,17 @@ JavaStudy
 강제(명시적) 타입 변환 : 큰 타입을 작은 타입을 쪼개어 저장하는 것
 </details>
 
-<details>
-<summary><strong>연산자</strong> — 연산자는 데이터를 계산하고, 비교하고, 조건을 판단하는 도구</summary>
 
+
+
+<details>
+<summary><h2>연산자</h2><br>연산자는 데이터를 계산하고, 비교하고, 조건을 판단하는 도구</summary>
+<br>
 <details>
 <summary><strong>연산자 종류</strong></summary>
 
 <details>
-<summary><strong>산술연산자</strong> — 숫자를 계산할 때 사용</summary>
+<summary><strong>산술연산자</strong><br>숫자를 계산할 때 사용</summary>
 
 |연산자|의미|예시|
 |-----|---|----|
@@ -64,7 +68,7 @@ JavaStudy
 -10%-3 -\> -1<br>
 </details>
 <details>
-<summary>증감연산자 변수의 값을 1증가 또는 감소 시킬 때 사용</summary>
+<summary><strong>증감연산자</strong><br>변수의 값을 1증가 또는 감소 시킬 때 사용</summary>
 
 |연산자|의미|예시|
 |------|----|----|
@@ -77,7 +81,7 @@ JavaStudy
 |++a|증가 후 사용|int a=5;<br>int b=++a; (b=6, a=6)|
 </details>
 <details>
-<summary>부정 연산자 boolean의 값을 반대로 바꿀 때 사용</summary>
+<summary><strong>부정 연산자</strong><br>boolean의 값을 반대로 바꿀 때 사용</summary>
 
     
 |연산자|의미|예시(결과)|
@@ -85,7 +89,7 @@ JavaStudy
 |!|논리 부정|!true -> false|
 </details>
 <details>
-<summary><strong>형변환 연산자</strong> — 데이터형을 다른 데이터형으로 바꿀 때 사용</summary>
+<summary><strong>형변환 연산자</strong><br>데이터형을 다른 데이터형으로 바꿀 때 사용</summary>
 
     
 |구분|연산자|설명|예시(결과)|
@@ -94,7 +98,7 @@ JavaStudy
 |강제형변환|(데이터타입)|큰 타입을 작은 허용 범위 타입으로 쪼개어서 저장|int b=(int)3.14; (3)|
 </details>
 <details>
-<summary>비교 연산자 두 값을 비교하여 true / false를 반환</summary>
+<summary><strong>비교 연산자</strong><br>두 값을 비교하여 true / false를 반환</summary>
 
     
 |연산자|의미|예시(결과)|
@@ -111,7 +115,7 @@ JavaStudy
 </details>
 
 <details>
-<summary>논리 연산자 여러 조건을 조합할 때 사용</summary>
+<summary><strong>논리 연산자</strong><br>여러 조건을 조합할 때 사용</summary>
 
 |연산자|의미|예시(결과)|
 |-----|----|-----------|
@@ -131,7 +135,7 @@ System.out.println(b);//20
 ```
 </details>
 <details>
-<summary>대입 연산자 변수에 값을 저장하거나 갱신할 때 사용</summary>
+<summary><strong>대입 연산자</strong><br>변수에 값을 저장하거나 갱신할 때 사용</summary>
 
     
 |연산자|의미|사용처|예시|
@@ -145,7 +149,7 @@ System.out.println(b);//20
 
 </details>
 <details>
-<summary>비트 연산자 정수의 2진수 비트를 기준으로 연산</summary>
+<summary><strong>비트 연산자</strong><br>정수의 2진수 비트를 기준으로 연산</summary>
 
     
 |연산자|의미|주로 사용하는 곳|예시(결과)|
@@ -157,7 +161,7 @@ System.out.println(b);//20
 
 </details>
 <details>
-<summary>비트 이동 연산자 비트를 왼쪽 또는 오른쪽으로 이동</summary>
+<summary><strong>비트 이동 연산자</strong><br>비트를 왼쪽 또는 오른쪽으로 이동</summary>
 
 |연산자|의미|주로 사용하는 곳|예시(결과)|
 |-----|----|---------------|------------|
@@ -166,9 +170,9 @@ System.out.println(b);//20
 |\>\>\>|오른쪽 이동<br>(0으로 채움)|부호 없는 해석|8>>>1 -> 4|
 </details>
 <details>
-<summary>삼항 연산자 조건에 따라 두 값 중 하나를 선택할 때 사용</summary>
+<summary><strong>삼항 연산자</strong><br>조건에 따라 두 값 중 하나를 선택할 때 사용</summary>
 
-    
+
 **형식**<br>
 조건식 ? 값1 : 값2;
 

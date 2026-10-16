@@ -42,23 +42,21 @@ JavaStudy
 자동(묵시적) 타입 변환 : 작은 크기의 타입이 큰 크기의 타입에 자장될 때 발생<br>
 강제(명시적) 타입 변환 : 큰 타입을 작은 타입을 쪼개어 저장하는 것
 </details>
-<details>
-  <summary>
+<details><summary>
     
 ## 연산자
 연산자는 데이터를 계산하고, 비교하고, 조건을 판단하는 도구
-  </summary>
-  <details>
-  <summary>
+</summary><details>
+<summary>
     
 ### 연산자 종류
-  </summary>
-    <details>
-      <summary>
+</summary>
+<details>
+<summary>
       
 #### 산술연산자
 숫자를 계산할 때 사용
-      </summary>
+</summary>
 
 |연산자|의미|예시|
 |-----|---|----|

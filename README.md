@@ -48,9 +48,11 @@ JavaStudy
 ## 연산자
 연산자는 데이터를 계산하고, 비교하고, 조건을 판단하는 도구
   </summary>
-
-### 연산자 종류
   <details>
+  <summary>
+### 연산자 종류
+  </summary>
+    
     <details>
       <summary>
       

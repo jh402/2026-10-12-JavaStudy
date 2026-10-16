@@ -154,9 +154,9 @@ boolean의 값을 반대로 바꿀 때 사용
 ||연산자 앞이 true면 뒤를 검사하지 않음
 
 예시
-int a=10
-int b=20
-System.out.println(a>b && a==++b);
+int a=10, b=20;
+System.out.println(a>b && ++b==21);//false
+System.out.println(b);//20
 
   </details>
 

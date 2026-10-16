@@ -31,7 +31,7 @@ JavaStudy
 |---|---|
 |boolean|1 byte|
   
-  </details>
+    </details>
 
 ### 변수 선언
 타입 변수이름; 형식으로 선언<br>
@@ -78,7 +78,6 @@ JavaStudy
 -10%3 -\> -1<br>
 -10%-3 -\> -1<br>
     </details>
-
     <details>
       <summary>
       
@@ -163,7 +162,6 @@ System.out.println(a>b && ++b==21);//false
 System.out.println(b);//20
 ```
     </details>
-
     <details>
       <summary>
       

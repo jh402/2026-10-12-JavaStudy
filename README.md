@@ -156,11 +156,12 @@ boolean의 값을 반대로 바꿀 때 사용
 &&연산자 앞이 false면 뒤를 검사하지 않음<br>
 ||연산자 앞이 true면 뒤를 검사하지 않음
 
-예시<br>
+예시
+```
 int a=10, b=20;<br>
 System.out.println(a>b && ++b==21);//false<br>
 System.out.println(b);//20<br>
-
+```
     </details>
 
     <details>

@@ -207,6 +207,7 @@ System.out.println(b);//20<br>
   </details>
   <details>
     <summary>
+      
 ### 삼항 연산자
 조건에 따라 두 값 중 하나를 선택할 때 사용
     </summary>

@@ -50,12 +50,15 @@ JavaStudy
 ## 연산자
 연산자는 데이터를 계산하고, 비교하고, 조건을 판단하는 도구
   </summary>
+
+### 연산자 종류
   <details>
-    <summary>
+    <details>
+      <summary>
       
-### 산술연산자
+#### 산술연산자
 숫자를 계산할 때 사용
-    </summary>
+      </summary>
 
 |연산자|의미|예시|
 |-----|---|----|
@@ -74,14 +77,14 @@ JavaStudy
 10%-3 -\> 1<br>
 -10%3 -\> -1<br>
 -10%-3 -\> -1<br>
-  </details>
+    </details>
 
-  <details>
-    <summary>
+    <details>
+      <summary>
       
-### 증감연산자
+#### 증감연산자
 변수의 값을 1증가 또는 감소 시킬 때 사용
-    </summary>
+      </summary>
 
 |연산자|의미|예시|
 |------|----|----|
@@ -92,36 +95,36 @@ JavaStudy
 |----|---|-----------|
 |a++|사용 후 증가|int a=5;<br>int b=a++; (b=5, a=6)|
 |++a|증가 후 사용|int a=5;<br>int b=++a; (b=6, a=6)|
-  </details>
-  <details>
-    <summary>
+    </details>
+    <details>
+      <summary>
       
-### 부정 연산자
+#### 부정 연산자
 boolean의 값을 반대로 바꿀 때 사용
-    </summary>
+      </summary>
     
 |연산자|의미|예시(결과)|
 |------|----|----------|
 |!|논리 부정|!true -> false|
-  </details>
-  <details>
-    <summary>
+    </details>
+    <details>
+      <summary>
       
-### 형변환 연산자
+#### 형변환 연산자
 데이터형을 다른 데이터형으로 바꿀 때 사용
-    </summary>
+      </summary>
     
 |구분|연산자|설명|예시(결과)|
 |----|-----|----|---------|
 |자동형변환||작은 타입의 값의 허용범위가 큰 타입으로 대입될 때 발생|double b=10; (10.0)|
 |강제형변환|(데이터타입)|큰 타입을 작은 허용 범위 타입으로 쪼개어서 저장|int b=(int)3.14; (3)|
-  </details>
-  <details>
-    <summary>
+    </details>
+    <details>
+      <summary>
       
-### 비교 연산자
+#### 비교 연산자
 두 값을 비교하여 true / false를 반환
-    </summary>
+      </summary>
     
 |연산자|의미|예시(결과)|
 |-----|----|----------|
@@ -134,14 +137,14 @@ boolean의 값을 반대로 바꿀 때 사용
 
 **주의**
 문자열 비교는 ==연산자 대신 equals() 사용
-  </details>
+    </details>
 
-  <details>
-    <summary>
+    <details>
+      <summary>
       
-### 논리 연산자
+#### 논리 연산자
 여러 조건을 조합할 때 사용
-    </summary>
+      </summary>
 
 |연산자|의미|예시(결과)|
 |-----|----|-----------|
@@ -158,14 +161,14 @@ int a=10, b=20;<br>
 System.out.println(a>b && ++b==21);//false<br>
 System.out.println(b);//20<br>
 
-  </details>
+    </details>
 
-  <details>
-    <summary>
+    <details>
+      <summary>
       
-### 대입 연산자
+#### 대입 연산자
 변수에 값을 저장하거나 갱신할 때 사용
-    </summary>
+      </summary>
     
 |연산자|의미|사용처|예시|
 |-----|----|-----|-----|
@@ -176,13 +179,13 @@ System.out.println(b);//20<br>
 |/=|나눈 후 대입|평균, 분배|a/=5|
 |%=|나머지 대입|짝수/홀수|a%=2|
 
-  </details>
-  <details>
-    <summary>
+    </details>
+    <details>
+      <summary>
       
-### 비트 연산자
+#### 비트 연산자
 정수의 2진수 비트를 기준으로 연산
-    </summary>
+      </summary>
     
 |연산자|의미|주로 사용하는 곳|예시(결과)|
 |------|---|-----|------------|
@@ -191,30 +194,31 @@ System.out.println(b);//20<br>
 |^|XOR|비트 반전/제어|5^3 -> 6|
 |~|NOT|모든 비트 반전|~5 -> -6|
 
-  </details>
-  <details>
-    <summary>
+    </details>
+    <details>
+      <summary>
       
-### 비트 이동 연산자
+#### 비트 이동 연산자
 비트를 왼쪽 또는 오른쪽으로 이동
-    </summary>
+      </summary>
 
 |연산자|의미|주로 사용하는 곳|예시(결과)|
 |-----|----|---------------|------------|
 |\<\<|왼쪽 이동|비트 플래그, 곱셈|8\<\<1 -> 16|
 |\>\>|오른쪽 이동<br>(부호 유지)|정수 처리|8\>\>1 -> 4|
 |\>\>\>|오른쪽 이동<br>(0으로 채움)|부호 없는 해석|8>>>1 -> 4|
-  </details>
-  <details>
-    <summary>
+    </details>
+    <details>
+      <summary>
       
-### 삼항 연산자
+#### 삼항 연산자
 조건에 따라 두 값 중 하나를 선택할 때 사용
-    </summary>
+      </summary>
     
 **형식**<br>
 조건식 ? 값1 : 값2;
 
 조건식이 참이라면 값1, 조건식이 거짓이라면 값2를 선택
+    </details>
   </details>
 </details>

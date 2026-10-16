@@ -30,8 +30,7 @@ JavaStudy
 |논리 타입|메모리 크기|
 |---|---|
 |boolean|1 byte|
-  
-    </details>
+  </details>
 
 ### 변수 선언
 타입 변수이름; 형식으로 선언<br>
@@ -43,7 +42,6 @@ JavaStudy
 자동(묵시적) 타입 변환 : 작은 크기의 타입이 큰 크기의 타입에 자장될 때 발생<br>
 강제(명시적) 타입 변환 : 큰 타입을 작은 타입을 쪼개어 저장하는 것
 </details>
-
 <details>
   <summary>
     

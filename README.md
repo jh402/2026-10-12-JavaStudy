@@ -158,9 +158,9 @@ boolean의 값을 반대로 바꿀 때 사용
 
 예시
 ```
-int a=10, b=20;<br>
-System.out.println(a>b && ++b==21);//false<br>
-System.out.println(b);//20<br>
+int a=10, b=20;
+System.out.println(a>b && ++b==21);//false
+System.out.println(b);//20
 ```
     </details>
 

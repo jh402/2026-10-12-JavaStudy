@@ -53,7 +53,6 @@ JavaStudy
     
 ### 연산자 종류
   </summary>
-    
     <details>
       <summary>
       

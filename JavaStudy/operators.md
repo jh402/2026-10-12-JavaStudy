@@ -1,11 +1,10 @@
-<details>
-<summary><h2>연산자</h2><br>연산자는 데이터를 계산하고, 비교하고, 조건을 판단하는 도구</summary>
+## 연산자
+연산자는 데이터를 계산하고, 비교하고, 조건을 판단하는 도구
 <br>
-<details>
-<summary><strong>연산자 종류</strong></summary>
 
-<details>
-<summary><strong>산술연산자</strong><br>숫자를 계산할 때 사용</summary>
+### 연산자 종류
+**산술연산자**
+숫자를 계산할 때 사용
 
 |연산자|의미|예시|
 |-----|---|----|

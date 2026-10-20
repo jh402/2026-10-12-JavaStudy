@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class 반복제어문_2 {
-	
 	public static void main(String[] args) {
 		int kor=0, eng=0, math=0;
 		Scanner scan=new Scanner(System.in);

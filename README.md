@@ -1,6 +1,8 @@
 JavaStudy
 ==========
 
+- [변수](basics/variables.md)
+
 <details>
 <summary><h2>변수</h2><br>하나의 값을 저장할 수 있는 메모리 공간</summary>
 <br>

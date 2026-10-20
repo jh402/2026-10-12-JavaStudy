@@ -4,45 +4,6 @@ JavaStudy
 - [변수](JavaStudy/variables.md)
 
 <details>
-<summary><h2>변수</h2><br>하나의 값을 저장할 수 있는 메모리 공간</summary>
-<br>
-<details>
-<summary><strong>데이터 타입</strong>
-    <br>모든 변수에는 타입이 있으며 타입에 따라 저장할 수 있는 값의 종류와 범위가 달라짐</summary>
-
-|정수 타입|메모리 크기|
-|---|---|
-|byte|1 byte|
-|char|2 byte|
-|short|2 byte|
-|int|4 byte|
-|long|8 byte|
-
-|실수 타입|메모리 크기|
-|---|---|
-|float|4 byte|
-|double|8 byte|
-
-|논리 타입|메모리 크기|
-|---|---|
-|boolean|1 byte|
-</details>
-
-### 변수 선언
-타입 변수이름; 형식으로 선언<br>
-예시) int age;
-
-### 타입 변환
-데이터 타입을 다른 타입으로 변환하는 것<br>
-크기 순서 : byte &#60; short &#60; int &#60; long &#60; float &#60; double<br>
-자동(묵시적) 타입 변환 : 작은 크기의 타입이 큰 크기의 타입에 자장될 때 발생<br>
-강제(명시적) 타입 변환 : 큰 타입을 작은 타입을 쪼개어 저장하는 것
-</details>
-
-
-
-
-<details>
 <summary><h2>연산자</h2><br>연산자는 데이터를 계산하고, 비교하고, 조건을 판단하는 도구</summary>
 <br>
 <details>

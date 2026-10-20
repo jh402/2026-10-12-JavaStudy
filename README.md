@@ -2,6 +2,7 @@ JavaStudy
 ==========
 
 1. [변수](JavaStudy/variables.md)
+2. [연산자].(JavaStudy/operators.md)
 
 <details>
 <summary><h2>연산자</h2><br>연산자는 데이터를 계산하고, 비교하고, 조건을 판단하는 도구</summary>

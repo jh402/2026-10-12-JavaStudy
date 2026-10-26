@@ -7,3 +7,4 @@ JavaStudy
 3. [연산자](JavaStudy/연산자.md)
 4. [제어문](JavaStudy/제어문.md)
 5. [참조타입](JavaStudy/참조타입.md)
+6. [메소드](JavaStudy/메소드.md)

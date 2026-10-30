@@ -1,5 +1,5 @@
 package com.sist.music;
 
-public class GenieMusic {
-
+public class GenieMusic extends Music{
+	
 }

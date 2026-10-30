@@ -23,7 +23,6 @@ public class UserMain {
 			System.out.println(vo.getRank()+"."+vo.getTitle());
 		}
 		
-		
 		System.out.print("가수명 입력:");
 		String singer=scan.next();
 		list=music.musicSearchSinger(singer);

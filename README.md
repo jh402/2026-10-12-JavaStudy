@@ -9,3 +9,4 @@ JavaStudy
 5. [참조타입](JavaStudy/참조타입.md)
 6. [메소드](JavaStudy/메소드.md)
 7. [클래스](JavaStudy/클래스.md)
+8. [상속](JavaStudy/상속.md)

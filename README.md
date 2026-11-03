@@ -10,3 +10,4 @@ JavaStudy
 6. [메소드](JavaStudy/메소드.md)
 7. [클래스](JavaStudy/클래스.md)
 8. [상속](JavaStudy/상속.md)
+9. [인터페이스](JavaStudy/인터페이스.md)

@@ -93,7 +93,6 @@ public class 예외처리종류 {
 		ccc(" 20");
 		ddd();
 		eee();
-		
 		//fff(); //예외처리해야 사용 가능
 		ggg();
 	}

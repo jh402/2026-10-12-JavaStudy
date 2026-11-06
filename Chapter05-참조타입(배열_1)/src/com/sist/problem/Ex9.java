@@ -60,5 +60,6 @@ public class Ex9 {
 				System.out.println("잘못된 입력입니다.");
 			}
 		}
+		
 	}
 }

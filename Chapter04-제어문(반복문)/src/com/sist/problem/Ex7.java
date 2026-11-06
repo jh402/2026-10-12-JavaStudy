@@ -10,21 +10,39 @@ public class Ex7 {
 		
 		Scanner scan=new Scanner(System.in);
 		int type=0;
+		int Withdrawal;
+		int amount=0;
 		
 		while(type!=4) {
 			System.out.println("-----------------------------");
 			System.out.println("1.예금 | 2.출금 | 3.잔고 | 4.종료");
 			System.out.println("-----------------------------");
-			System.out.println("선택> ");
+			System.out.print("선택> ");
 			type=scan.nextInt();
 			
 			
 			switch(type) {
 			case 1->{
-				System.out.println("예금액>");
-				scan.nextInt();
+				System.out.print("예금액>");
+				amount+=scan.nextInt();
 			}
-			
+			case 2->{
+				System.out.print("출금액>");
+				Withdrawal=scan.nextInt();
+				if(amount<Withdrawal) {
+					System.out.println("잔고보다 출금금액이 큽니다.");
+				}
+				else {
+					amount-=Withdrawal;
+				}
+				
+			}
+			case 3->System.out.println("잔고>"+amount);
+			case 4->{
+				System.out.println("프로그램 종료");
+				break;
+			}
+			default->System.out.println("잘못된 입력입니다.");
 			}
 		}
 	}

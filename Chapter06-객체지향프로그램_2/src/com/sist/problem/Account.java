@@ -7,7 +7,6 @@ public class Account {
 	private String num;
 	private String name;
 	
-	
 	public int getBalance() {
 		return balance;
 	}

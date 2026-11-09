@@ -4,6 +4,9 @@ public class Account {
 	private final int MIN_BALANCE=0;
 	private final int MAX_BALANCE=1_000_000;
 	private int balance;
+	private String num;
+	private String name;
+	
 	
 	public int getBalance() {
 		return balance;
@@ -16,7 +19,18 @@ public class Account {
 		else
 			this.balance=balance;
 	}
-	
+	public String getNum() {
+		return num;
+	}
+	public void setNum(String num) {
+		this.num = num;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
 	
 	public static void main(String[] args) {
 		Account account=new Account();

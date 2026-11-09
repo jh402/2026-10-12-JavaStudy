@@ -7,5 +7,6 @@ public class SnowTireExample {
 		
 		snowTire.run();
 		tire.run();
+		
 	}
 }

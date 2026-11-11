@@ -60,7 +60,6 @@ package com.sist.string;
 */
 public class 문자열_정리 {
 	public static void main(String[] args) {
-		String str="Hello";
 		
 	}
 }

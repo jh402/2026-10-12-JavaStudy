@@ -13,6 +13,5 @@ public class Regex_3 {
 		System.out.println("Hello".matches("H[A-Za-z]*llo"));
 		System.out.println("sdflajsdlfjk".matches("s.*k$"));
 		System.out.println("dasoivnelkqw".matches(".*"));
-		
 	}
 }

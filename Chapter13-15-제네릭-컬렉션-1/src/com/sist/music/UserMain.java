@@ -5,7 +5,7 @@ import java.util.*;
 public class UserMain {
 	public static void main(String[] args) {
 		Scanner scan=new Scanner(System.in);
-		
+
 		System.out.print("선택 지니뮤직(1), 멜론(2):");
 		int select=scan.nextInt();
 		

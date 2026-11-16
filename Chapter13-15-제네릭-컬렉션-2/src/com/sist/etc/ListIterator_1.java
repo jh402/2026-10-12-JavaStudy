@@ -32,7 +32,6 @@ public class ListIterator_1 {
 		while(it.hasPrevious()) {
 			System.out.print(it.previous()+" ");
 		}
-		System.out.println();
-		
+		System.out.println();	
 	}
 }

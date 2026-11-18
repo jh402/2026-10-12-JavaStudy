@@ -16,4 +16,4 @@ JavaStudy
 12. [제네릭](JavaStudy/제네릭.md)
 13. [컬렉션](JavaStudy/컬렉션.md)
 14. [쓰레드](JavaStudy/쓰레드.md)
-15. [파일입출력](JavaStudy/파일입출력.md)
+15. [데이터입출력](JavaStudy/데이터입출력.md)

@@ -89,7 +89,6 @@ import java.util.Date;
  * - 이미지파일로 저장-보안
  * - 사용 편리
  * 
- * 
  * java.io는 반드시 예외처리
  * CheckedException이기 때문
 */

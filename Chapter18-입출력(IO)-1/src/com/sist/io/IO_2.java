@@ -91,7 +91,7 @@ import java.util.Date;
  * 
  * 
  * java.io는 반드시 예외처리
- * CheckException이기 때문
+ * CheckedException이기 때문
 */
 public class IO_2 {
 	public static void main(String[] args) {

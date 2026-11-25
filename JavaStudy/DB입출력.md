@@ -38,6 +38,10 @@ Class.forName("oracle.jdbc.OracleDriver");
 ```
 
 DriverManager에 JDBC Driver가 등록되면 getConnection() 메소드로 DB와 연결
+
+연결 문자열은 DBMS마다 다른 형식
+
+Oracle의 연결 문자열은 `jdbc:oracle:thin:@IP주소:포트/DB명`의 형식
 ```java
 Connection conn=DriverManager.getConnection("연결 문자열", "사용자", "비밀번호");
 ```

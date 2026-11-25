@@ -7,5 +7,22 @@
 
 **java.sql 패키지**
 - **DriverManager**
-  - JDBC Driver를 관리하며 DB와 연결해서 Connection 구현 객체를 생성
-- **Connection** 인터페이스 : Statement, PreparedStatement, CallableStatement 구현 객체를 생성
+  - 클래스
+  - JDBC Driver를 관리
+  - DB와 연결해서 Connection 구현 객체를 생성
+- **Connection**
+  - 인터페이스
+  - Statement, PreparedStatement, CallableStatement 구현 객체를 생성
+  - 트랜잭션 처리 및 DB 연결을 끊을 때 사용
+- **Statement**
+  - 인터페이스
+  - SQL의 DDL과 DML을 실행할 때 사용
+  - 변경되지 않는 정적 SQL문을 실행할 때 사용
+- **PreparedStatement**
+  - SQL의 DDL과 DML을 실행할 때 사용
+  - 매개변수화된 SQL문을 사용
+  - Statement보다 편리성과 보안성이 좋다.
+- **CallableStatement**
+  - DB에 저장되어 있는 프로시저와 함수를 호출할 때 사용
+- **ResultSet**
+  - DB에서 가져온 데이터를 읽을 때 사용

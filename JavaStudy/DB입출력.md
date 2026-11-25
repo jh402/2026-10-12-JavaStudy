@@ -28,6 +28,7 @@
   - DB에서 가져온 데이터를 읽을 때 사용
 
 # DB연결
+## JDBC Driver 클래스를 메모리로 로딩
 Class.forName() 메소드는 문자열로 주어진 JDBC Driver 클래스를 Build Path에서 찾고 메모리로 로딩
 
 이 과정에서 JDBC Driver 클래스의 static 블록이 실행되면서 DriverManager에 JDBC Driver 객체를 등록
@@ -36,7 +37,7 @@ Build Path에서 JDBC Driver 클래스를 찾지 못하면 ClassNotFoundExceptio
 ```java
 Class.forName("oracle.jdbc.OracleDriver");
 ```
-
+## DB와 연결
 DriverManager에 JDBC Driver가 등록되면 getConnection() 메소드로 DB와 연결
 
 연결 문자열은 DBMS마다 다른 형식

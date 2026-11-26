@@ -46,3 +46,30 @@ Oracle의 연결 문자열은 `jdbc:oracle:thin:@IP주소:포트/DB명`의 형�
 ```java
 Connection conn=DriverManager.getConnection("연결 문자열", "사용자", "비밀번호");
 ```
+
+## 연결 끊기
+close() 함수로 연결 끊기
+
+null인 경우 연결이 끊겼다는 의미
+```java
+//연결하기
+Connection conn=DriverManager.getConnection("연결 문자열", "사용자", "비밀번호");
+//연결 끊기
+if(conn!=null) conn.close();
+```
+
+# SQL문 실행
+## SELECT문
+1. sql문을 실행하려면 PreparedStatement가 필요
+2. Connection의 prepareStatement() 메소드에 sql문을 주고 PreparedStatement를 얻기
+3. sql문의 ?에 들어갈 값을 Setter 메소드를 이용하여 값의 타입에 따라 메소드 선택
+4. sql문의 ?는 순서에 따라 1번부터 번호 부여
+5. executeQuery() 메소드로 Select문 실행 후 데이터를 ResultSet에 저장하고 리턴
+
+
+```java
+String sql="SELECT * FROM user where name=?"
+PreparedStatement ps=conn.prepareStatement(sql);
+ps.setString(1, "이름");
+ResultSet rs=ps.executeQuery();
+```

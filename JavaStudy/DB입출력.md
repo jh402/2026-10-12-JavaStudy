@@ -58,18 +58,36 @@ Connection conn=DriverManager.getConnection("연결 문자열", "사용자", "�
 if(conn!=null) conn.close();
 ```
 
-# SQL문 실행
-## SELECT문
+## SQL문 실행
 1. sql문을 실행하려면 PreparedStatement가 필요
 2. Connection의 prepareStatement() 메소드에 sql문을 주고 PreparedStatement를 얻기
 3. sql문의 ?에 들어갈 값을 Setter 메소드를 이용하여 값의 타입에 따라 메소드 선택
 4. sql문의 ?는 순서에 따라 1번부터 번호 부여
 5. executeQuery() 메소드로 Select문 실행 후 데이터를 ResultSet에 저장하고 리턴
-
+6. PreparedStatement와 ResultSet를 사용하지 않는다면 close()
 
 ```java
 String sql="SELECT * FROM user where name=?"
 PreparedStatement ps=conn.prepareStatement(sql);
 ps.setString(1, "이름");
 ResultSet rs=ps.executeQuery();
+
+rs.close();
+ps.close();
+```
+
+### ResultSet
+- SQL문의 SELECT문에 기술된 컬럼으로 구성된 행의 집합
+- 커서(행을 가리키는 포인터)가 있는 행의 데이터만 읽을 수 있다.
+- 실제 가져온 데이터 행의 앞과 뒤에 beforeFirst행과 afterLast행이 붙는다.
+- 최초 커서는 beforeFirst커서를 가리킨다.
+- first행을 읽기 위해 next() 메소드 사용
+- 이동한 행에 데이터가 있다면 true, 없다면 false
+
+```java
+ResultSet rs=ps.executeQuery();
+while(rs.next()){
+  //last행까지 이동하면서 데이터 행 처리
+}
+//afterLast 행으로 이동한 경우
 ```

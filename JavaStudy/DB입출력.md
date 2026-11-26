@@ -83,11 +83,13 @@ ps.close();
 - 최초 커서는 beforeFirst커서를 가리킨다.
 - first행을 읽기 위해 next() 메소드 사용
 - 이동한 행에 데이터가 있다면 true, 없다면 false
+- 각 컬럼의 값은 Getter 메소드로 데이터 타입에 따라 읽을 수 있다.
 
 ```java
 ResultSet rs=ps.executeQuery();
 while(rs.next()){
   //last행까지 이동하면서 데이터 행 처리
+  String value=rs.getString("컬럼 이름 또는 순번");
 }
 //afterLast 행으로 이동한 경우
 ```
